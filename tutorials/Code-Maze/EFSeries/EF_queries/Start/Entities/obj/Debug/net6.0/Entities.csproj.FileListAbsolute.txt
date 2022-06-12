@@ -1,0 +1,12 @@
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\bin\Debug\net6.0\Entities.deps.json
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\bin\Debug\net6.0\Entities.dll
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\bin\Debug\net6.0\Entities.pdb
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.dll
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\refint\Entities.dll
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\Entities.pdb
+A:\Programming\Tutorials\Code-Maze\EFSeries\EF_queries\Entities\obj\Debug\net6.0\ref\Entities.dll
