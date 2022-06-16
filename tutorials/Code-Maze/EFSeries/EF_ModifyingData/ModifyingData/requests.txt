@@ -1,0 +1,46 @@
+﻿{
+  "id": "e02ea716-4549-436b-985a-8630c6054dcd",
+  "name": "Student Added",
+  "age": 20,
+  "isRegularStudent": true,
+  "studentDetails": null,
+  "evaluations": null,  
+  "studentSubjects": null
+}
+
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "name": "string",
+  "age": 0,
+  "isRegularStudent": true,
+  "studentDetails": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "address": "string",
+    "additionalInformation": "string",
+    "studentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "student": "string"
+  },
+  "evaluations": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "grade": 0,
+      "additionalExplanation": "string",
+      "studentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "student": "string"
+    }
+  ],
+  "studentSubjects": [
+    {
+      "studentId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "student": "string",
+      "subjectId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "subject": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "subjectName": "string",
+        "studentSubjects": [
+          "string"
+        ]
+      }
+    }
+  ]
+}
