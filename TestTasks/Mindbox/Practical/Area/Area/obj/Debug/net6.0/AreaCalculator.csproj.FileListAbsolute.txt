@@ -1,0 +1,12 @@
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\bin\Debug\net6.0\AreaCalculator.deps.json
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\bin\Debug\net6.0\AreaCalculator.dll
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\bin\Debug\net6.0\AreaCalculator.pdb
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.csproj.AssemblyReference.cache
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.AssemblyInfoInputs.cache
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.AssemblyInfo.cs
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.csproj.CoreCompileInputs.cache
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.dll
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\refint\AreaCalculator.dll
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\AreaCalculator.pdb
+A:\Programming\JobSearching\TestTask\SquareLib\Area\Area\obj\Debug\net6.0\ref\AreaCalculator.dll

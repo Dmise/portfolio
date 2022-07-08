@@ -1,0 +1,12 @@
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\bin\Debug\net6.0\Square.deps.json
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\bin\Debug\net6.0\Square.dll
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\bin\Debug\net6.0\Square.pdb
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.csproj.AssemblyReference.cache
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.GeneratedMSBuildEditorConfig.editorconfig
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.AssemblyInfoInputs.cache
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.AssemblyInfo.cs
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.csproj.CoreCompileInputs.cache
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.dll
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\refint\Square.dll
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\Square.pdb
+A:\Programming\JobSearching\TestTask\SquareLib\square\square\obj\Debug\net6.0\ref\Square.dll
