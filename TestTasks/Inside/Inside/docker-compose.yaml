@@ -1,7 +1,7 @@
 ﻿version: '3'
 services: 
   inside:
-    image: inside:v2   #use "image" if we use image instead of dockerfile   or "build" .  (where '.' is current directory)
+    image: dmise/inside   #use "image" if we use image instead of dockerfile   or "build" .  (where '.' is current directory)
     ports:
     - "7117:443"
     - "7120:80"
