@@ -92,9 +92,34 @@ curl --location --request POST 'https://localhost:7117/api/inside/message' \
 Приложение запускается на `https://localhost:7117`
 
 ### 2. Докер контейнер
+**Образ докер-контейнера на докер хабе:** `dmise/inside`
 
-Образ докер-контейнера `dmise/inside` 
+запускаем контейнер командой `docker-compose up`. По умолчанию контейнер запускается на 7117 порт, пингуем его работоспособность командами:
+`https://localhost:7117/health` или 
+`https://localhost:7117/swagger/index.html` 
+
+содержимое файла *docker-compose.yaml*
+```
+version: '3'
+services: 
+  inside:
+    image: dmise/inside
+    ports:
+    - "7117:443"
+    - "7120:80"
+    environment: 
+      ASPNETCORE_URLS: "https://+;http://+"
+      ASPNETCORE_HTTPS_PORT: "7117"
+      ASPTENCORE_ENVIRONMENT: "Development"
+      # хардкодим пароль, если не получается с сертификатами и секретами
+      ASPNETCORE_Kestrel__Certificates__Default__Password: "InsidePassword"   
+      ASPNETCORE_Kestrel__Certificates__Default__Path: "/root/.aspnet/https/Inside.pfx"
+    container_name: "InsideTestTaskByDmise"
+```
+
 ### 3. Среда разработки
+
+Да, проект можно ещё запустить из среды разработки на ваш выбор.
 
 # Техническое задание по которому писался API
 
