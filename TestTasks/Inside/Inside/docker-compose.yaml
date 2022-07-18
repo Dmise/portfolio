@@ -1,24 +1,18 @@
 ﻿version: '3'
 services: 
   inside:
-    image: inside:v1   #use "image" if we use image instead of dockerfile   or "build" .  (where '.' is current directory)
+    image: inside:v2   #use "image" if we use image instead of dockerfile   or "build" .  (where '.' is current directory)
     ports:
-    - "7177:443"
+    - "7117:443"
     - "7120:80"
     environment: 
       ASPNETCORE_URLS: "https://+;http://+"
-      ASPNETCORE_HTTPS_PORT: "7177"
+      ASPNETCORE_HTTPS_PORT: "7117"
       ASPTENCORE_ENVIRONMENT: "Development"
-      # хардкодим пароль, если не получается с сертификатами и секреатми
-      ASPNETCORE_Kestrel__Certificates__Default__Password: "InsidePassword"      
+      # хардкодим пароль, если не получается с сертификатами и секретами
+      ASPNETCORE_Kestrel__Certificates__Default__Password: "InsidePassword"   
       ASPNETCORE_Kestrel__Certificates__Default__Path: "/root/.aspnet/https/Inside.pfx"
-    volumes:
-      # каталоги во время разработки
-      #- ${USERPROFILE}\.aspnet\https:/root/.aspnet/https:ro   # путь до каталога с сертификатом
-      #- ${APPDATA}\microsoft\UserSecrets\:/root/.microsoft/usersecrets:ro    # пароль на рабочей машине
+    #volumes:
+      # - .\Secrets\:/root/.aspnet/https/
 
-      
-      # каталоги во время развертывания в рабочей среде. Как пример сертификат и секрет хранятся в корне решения в папке Secrets
-      - .\Secrets\:/root/.aspnet/https/  #! направление слешей машины хоста завит от ОС и терминала в котормо запускается докер-композ
-      - .\Secrets\:/root/.microsoft/usersecrets  
-    container_name: "inside"
+    container_name: "HOp-hey"

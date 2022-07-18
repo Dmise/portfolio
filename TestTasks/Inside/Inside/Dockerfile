@@ -22,4 +22,7 @@ RUN dotnet publish "Inside.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+WORKDIR /root
+COPY ./Secrets/Inside.pfx /root/.aspnet/https/
+WORKDIR /app
 ENTRYPOINT ["dotnet", "Inside.dll"]
